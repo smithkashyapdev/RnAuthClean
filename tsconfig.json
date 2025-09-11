@@ -5,13 +5,15 @@
     "module": "ES2020",
     "jsx": "react-jsx",
     "strict": true,
-    "moduleResolution": "node",   // ✅ instead of nodenext
+    "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     },
-    "types": ["react", "react-native"], // ✅ ensure RN types are included
-    "skipLibCheck": true
+    "types": ["react", "react-native"],
+    "skipLibCheck": true,
+    "lib": ["es2020", "dom"]
   },
-  "include": ["src", "App.tsx"]
+  "include": ["src", "App.tsx"],
+  "exclude": ["node_modules", "build", "dist"]
 }
