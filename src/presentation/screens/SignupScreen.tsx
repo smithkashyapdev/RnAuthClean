@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { View, Text, Alert, StyleSheet } from "react-native";
-import { useAuth } from "@/context/AuthContext";
-import FormTextInput from "@/presentation/components/FormTextInput";
-import PasswordInput from "@/presentation/components/PasswordInput";
-import Button from "@/presentation/components/Button";
-import { isEmail, minLen } from "@/utils/validators";
+import { useAuth } from "../../context/AuthContext";
+import FormTextInput from "../components/FormTextInput";
+import PasswordInput from "../components/PasswordInput";
+import Button from "../components/Button";
+import { isEmail, minLen } from "../../utils/validators";
 
 export default function SignupScreen({ navigation }: any) {
     const { signup } = useAuth();
