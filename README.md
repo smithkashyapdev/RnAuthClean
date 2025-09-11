@@ -45,7 +45,7 @@ The app demonstrates a modern, maintainable architecture for mobile apps.
 ## Screenshots / Demo
 
 > Replace these with actual images or screen recording GIFs.  
-
+![App Demo](demo/demo.gif)
 ![LoginScreen](screenshots/login.png)  
 ![SignupScreen](screenshots/signup.png)  
 ![HomeScreen](screenshots/home.png)  
